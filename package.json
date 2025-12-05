@@ -1,0 +1,34 @@
+{
+    "name": "texteditor-desktopapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "dev": "vite & electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HACKERMANHYPER/texteditor-desktopapp.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/HACKERMANHYPER/texteditor-desktopapp/issues"
+    },
+    "homepage": "https://github.com/HACKERMANHYPER/texteditor-desktopapp#readme",
+    "devDependencies": {
+        "electron": "^39.2.5",
+        "prettier": "^3.7.4",
+        "prettier-plugin-svelte": "^3.4.0"
+    },
+    "dependencies": {
+        "@sveltejs/vite-plugin-svelte": "^6.2.1",
+        "svelte": "^5.45.5",
+        "vite": "^7.2.6"
+    }
+}

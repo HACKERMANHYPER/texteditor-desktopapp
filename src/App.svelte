@@ -12,7 +12,7 @@
     <h1>Textdatei erstellen</h1>
 
     <label>Dateiname:</label>
-    <input bind:value={filename} />
+    <!-- <input bind:value={filename} /> -->
 
     <label>Inhalt:</label>
     <textarea bind:value={content}></textarea>

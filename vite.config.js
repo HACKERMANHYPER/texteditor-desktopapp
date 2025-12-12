@@ -4,8 +4,5 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
     plugins: [svelte(), tailwindcss()],
-    server: {
-        strictPort: false,
-        port: 3000,
-    },
+    server: { strictPort: false, port: 3000 },
 });

@@ -1,4 +1,4 @@
-<script>    
+<script>
     let filename = 'beispiel.txt';
     let content = 'Hallo Welt!';
 

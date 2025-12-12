@@ -37,14 +37,14 @@ ipcMain.handle('dialog-open-file', async () => {
         properties: ['openFile'],
         filters: [
             { name: 'Text Files', extensions: ['txt', 'md', 'json'] },
-            { name: 'All Files', extensions: ['*'] }
-        ]
+            { name: 'All Files', extensions: ['*'] },
+        ],
     });
-    
+
     if (result.canceled) {
         return null;
     }
-    
+
     const filePath = result.filePaths[0];
     const content = fs.readFileSync(filePath, 'utf8');
     return { filename: path.basename(filePath), content };

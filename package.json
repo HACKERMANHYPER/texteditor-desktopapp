@@ -9,7 +9,7 @@
         "format:check": "prettier --check .",
         "vite": "vite",
         "electron": "electron .",
-        "dev": "vite && electron ."
+        "dev": "node scripts/dev.js"
     },
     "repository": {
         "type": "git",

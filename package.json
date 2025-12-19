@@ -28,7 +28,7 @@
         "electron": "^39.2.5",
         "prettier": "^3.7.4",
         "prettier-plugin-svelte": "^3.4.0",
-        "prettier-plugin-tailwindcss": "^0.7.1",
+        "prettier-plugin-tailwindcss": "^0.7.2",
         "tailwindcss": "^4.1.17"
     },
     "dependencies": {
